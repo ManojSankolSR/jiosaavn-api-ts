@@ -6,7 +6,7 @@ export const config = {
   },
 
   rateLimit: {
-    enable: process.env.ENABLE_RATE_LIMIT === "true" ?? false,
+    enable: false,
     limitedReqCount: +(process.env.LIMITED_REQ_COUNT ?? 5),
   },
 

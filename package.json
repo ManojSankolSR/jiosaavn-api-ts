@@ -4,6 +4,7 @@
   "description": "🎵 An Unofficial wrapper for the JioSaavn API.",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
+    "build": "echo build-complete",
     "type-check": "tsc --noEmit",
     "lint:check": "biome check",
     "lint": "biome check --write",
